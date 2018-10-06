@@ -1,11 +1,8 @@
-plugins {
-    id 'java'
-}
+apply plugin: 'java'
 
 group 'io.github.battlerhythm'
 version '1.0-SNAPSHOT'
 
-sourceCompatibility = 1.8
 
 repositories {
     mavenCentral()
@@ -13,4 +10,14 @@ repositories {
 
 dependencies {
     testCompile group: 'org.testng', name: 'testng', version: '6.14.2'
+}
+
+test {
+    // enable TestNG support (default is JUnit)
+    useTestNG() {
+        useDefaultListeners = true
+        suites 'src/test/resources/suite.xml'
+    }
+
+
 }

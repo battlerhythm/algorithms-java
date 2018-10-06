@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="AllTestsSuite">
+    <test name="Testing myds Test">
+        <classes>
+            <class name="io.github.battlerhythm.StackTest">
+                <methods>
+                    <include name="testToString" />
+                    <include name="testIsEmpty" />
+                    <include name="testPush" />
+                    <include name="testPeek" />
+                    <include name="testPop" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
