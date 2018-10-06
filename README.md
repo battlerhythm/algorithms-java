@@ -1,2 +1,2 @@
 # algorithms-java
-Algorithms and Data Structures in Python
+Re-writing Algorithms and Data Structures in Java. Being updated.
