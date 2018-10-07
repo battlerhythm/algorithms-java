@@ -1,8 +1,8 @@
 apply plugin: 'java'
+apply plugin: 'jacoco'
 
 group 'io.github.battlerhythm'
 version '1.0-SNAPSHOT'
-
 
 repositories {
     mavenCentral()
@@ -18,6 +18,12 @@ test {
         useDefaultListeners = true
         suites 'src/test/resources/suite.xml'
     }
-
-
 }
+
+jacocoTestReport {
+    reports {
+        xml.enabled = true
+    }
+}
+
+check.dependsOn jacocoTestReport
