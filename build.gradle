@@ -28,7 +28,6 @@ buildScan {
 jacocoTestReport {
     reports {
         xml.enabled = true
-        xml.destination file("${}")
     }
 }
 
