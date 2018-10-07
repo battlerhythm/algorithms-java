@@ -12,6 +12,15 @@
                     <include name="testPop" />
                 </methods>
             </class>
+            <class name="io.github.battlerhythm.QueueTest">
+                <methods>
+                    <include name="testToString" />
+                    <include name="testSize" />
+                    <include name="testIsEmpty" />
+                    <include name="testEnqueue" />
+                    <include name="testDequeue" />
+                </methods>
+            </class>
         </classes>
     </test>
 </suite>
