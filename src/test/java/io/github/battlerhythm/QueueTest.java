@@ -49,7 +49,7 @@ public class QueueTest {
         try {
             q.dequeue();
         } catch (Exception e){
-            assertEquals(e, java.lang.IndexOutOfBoundsException.class);
+            assertEquals(e.getClass(), java.lang.IndexOutOfBoundsException.class);
         }
         q.enqueue(10);
         q.enqueue(20);
