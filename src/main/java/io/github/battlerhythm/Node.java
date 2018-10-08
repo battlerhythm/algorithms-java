@@ -34,4 +34,9 @@ public class Node<T> {
     public void setPrevNode(Node<T> prevNode) {
         this.prevNode = prevNode;
     }
+
+    @Override
+    public String toString() {
+        return item.toString();
+    }
 }
