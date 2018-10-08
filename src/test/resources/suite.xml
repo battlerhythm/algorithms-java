@@ -21,6 +21,12 @@
                     <include name="testDequeue" />
                 </methods>
             </class>
+            <class name="io.github.battlerhythm.DequeTest">
+                <methods>
+                    <include name="testEnqueueLeft" />
+                    <include name="testDequeueRight" />
+                </methods>
+            </class>
         </classes>
     </test>
 </suite>

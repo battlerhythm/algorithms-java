@@ -3,7 +3,7 @@ package io.github.battlerhythm;
 import java.util.ArrayList;
 
 public class Queue<T> {
-    private ArrayList<T> alist;
+    protected ArrayList<T> alist;
 
     public Queue() {
         this.alist = new ArrayList<>();
@@ -27,6 +27,6 @@ public class Queue<T> {
     }
 
     public T dequeue() {
-        return this.alist.remove(this.alist.size()-1);
+        return this.alist.remove(0);
     }
 }
