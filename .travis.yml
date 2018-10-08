@@ -4,7 +4,6 @@ env:
 language: java
 install: true
 jdk:
-  - oraclejdk11
   - oraclejdk10
   - openjdk9
 before_script:
