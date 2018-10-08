@@ -4,7 +4,9 @@ env:
 language: java
 install: true
 jdk:
+  - oraclejdk11
   - oraclejdk10
+  - openjdk9
 before_script:
   - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
   - chmod +x ./cc-test-reporter
