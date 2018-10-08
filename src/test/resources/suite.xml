@@ -35,6 +35,16 @@
                     <include name="testSetNode" />
                 </methods>
             </class>
+            <class name="io.github.battlerhythm.LinkedListTest">
+                <methods>
+                    <include name="testGetSize" />
+                    <include name="testAppend" />
+                    <include name="testPop" />
+                    <include name="testPop1" />
+                </methods>
+            </class>
+
+
         </classes>
     </test>
 </suite>
