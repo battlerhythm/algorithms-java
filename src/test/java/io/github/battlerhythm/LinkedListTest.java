@@ -46,5 +46,9 @@ public class LinkedListTest {
         } catch (Exception e) {
             assertEquals(e.getClass(), IndexOutOfBoundsException.class);
         }
+        ll.pop();
+        assertEquals(ll.toString(), "[10]");
+        ll.pop();
+        assertEquals(ll.toString(), "[]");
     }
 }
