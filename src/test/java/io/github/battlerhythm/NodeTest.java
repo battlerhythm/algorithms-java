@@ -41,5 +41,6 @@ public class NodeTest {
         n2.setNextNode(n3);
         n3.setPrevNode(n2);
         assertEquals(n1.getNextNode().getNextNode(), n3);
+        assertEquals(n2.getPrevNode(), n1);
     }
 }
