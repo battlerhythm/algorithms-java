@@ -27,6 +27,14 @@
                     <include name="testDequeueRight" />
                 </methods>
             </class>
+            <class name="io.github.battlerhythm.NodeTest">
+                <methods>
+                    <include name="testGetItem" />
+                    <include name="testSetItem" />
+                    <include name="testGetNode" />
+                    <include name="testSetNode" />
+                </methods>
+            </class>
         </classes>
     </test>
 </suite>

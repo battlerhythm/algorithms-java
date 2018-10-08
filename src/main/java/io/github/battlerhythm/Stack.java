@@ -3,7 +3,7 @@ package io.github.battlerhythm;
 import java.util.ArrayList;
 
 public class Stack<T> {
-    private ArrayList<T> alist;
+    protected ArrayList<T> alist;
 
     public Stack(){
         this.alist = new ArrayList<T>();
